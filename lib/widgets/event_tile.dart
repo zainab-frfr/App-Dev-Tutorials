@@ -6,7 +6,6 @@ class EventTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       elevation: 10,
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 5),

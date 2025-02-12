@@ -18,7 +18,7 @@ class MyProfilePage extends StatelessWidget {
             children: [
               AppBar(
                 shape: CustomAppBarShape(),
-                backgroundColor: Colors.amber,
+                backgroundColor: Colors.blueGrey,
               ),
               Column(
                 mainAxisSize: MainAxisSize.min,
@@ -52,7 +52,7 @@ class MyProfilePage extends StatelessWidget {
                           'John Doe',
                           style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              color: Color(0xFFD62828),
+                              color: const Color.fromARGB(255, 70, 90, 101),
                               fontSize: 22),
                         ),
                         const SizedBox(
